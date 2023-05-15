@@ -6,5 +6,5 @@ COPY . .
 # Install
 RUN npm install
 # Docker Run Command
-EXPOSE 8090
+EXPOSE 8080
 CMD [ "node", "server.js" ]
